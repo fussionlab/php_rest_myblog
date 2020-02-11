@@ -93,7 +93,7 @@
       }
 
       // Print error if something goes wrong
-      printf("Error: %s.\n", $stmt->error);
+       print_r( $stmt->errorInfo());
 
       return false;
     }
@@ -128,7 +128,7 @@
           }
 
           // Print error if something goes wrong
-          printf("Error: %s.\n", $stmt->error);
+           print_r( $stmt->errorInfo());
 
           return false;
     }
@@ -153,7 +153,7 @@
           }
 
           // Print error if something goes wrong
-          printf("Error: %s.\n", $stmt->error);
+           print_r( $stmt->errorInfo());
 
           return false;
     }
